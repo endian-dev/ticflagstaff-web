@@ -1,0 +1,1 @@
+Mockup for the flavor wizard!

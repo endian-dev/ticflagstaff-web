@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-10 mx-auto founder-info">
+            <h1 class="text-center mb-4">{{ .Title }}</h1>
+            <div class="content">
+                {{ .Content }}
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-md-6 text-center">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body">
+                            <h3>Nic Beckett</h3>
+                            <p class="text-muted">Co-Founder</p>
+                            <p>"Creating ice cream is about bringing joy to people's lives through simple, quality ingredients."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body">
+                            <h3>Seth Beckett</h3>
+                            <p class="text-muted">Co-Founder</p>
+                            <p>"We wanted to create something special for Flagstaff - ice cream that represents the quality and character of our community."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-5 text-center">
+                <h2>Coming 2023...</h2>
+                <p class="lead">We are in the process of building out our mobile ice cream truck. Scoops of your favorite flavors, waffle cones, ice cream tacos, and so much more. Stay tuned for more details.</p>
+                <a href="/products/" class="btn-ice-cream mt-3">Explore Our Flavors</a>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }} 

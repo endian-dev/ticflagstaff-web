@@ -1,0 +1,45 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Timberline Handcrafted Ice Cream & Candy"
+theme = "PaperMod"
+
+[params]
+  description = "Handcrafted, small-batch, super-premium ice cream made in Flagstaff, Arizona"
+  author = "Timberline"
+  defaultTheme = "light"
+  mainSections = ["products", "about", "order"]
+  ShowBreadCrumbs = true
+  ShowReadingTime = false
+  ShowPostNavLinks = true
+  ShowShareButtons = true
+  disableSpecial1stPost = true
+  
+  [params.homeInfoParams]
+    Title = "Timberline Handcrafted Ice Cream & Candy"
+    Content = "Handcrafted, small-batch, super-premium ice cream made in Flagstaff, Arizona"
+  
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:sales@TICflagstaff.com"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "products"
+    name = "Our Ice Cream"
+    url = "/products/"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "About Us"
+    url = "/about/"
+    weight = 30
+  [[menu.main]]
+    identifier = "order"
+    name = "Order"
+    url = "/order/"
+    weight = 40
