@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://ticflagstaff.endian.dev/"
 languageCode = "en-us"
 title = "Timberline Handcrafted Ice Cream & Candy"
 theme = "PaperMod"
